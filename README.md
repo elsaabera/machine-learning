@@ -86,11 +86,6 @@ Several machine learning models are trained and compared:
 
 ---
 
-Here’s how you can format the JSON data properly in your **GitHub README**:  
-
-```md
-## 📊 Sample Input Data  
-
 
 ```json
 {
@@ -158,8 +153,6 @@ uvicorn elsa:app --reload
 [Machine Learning API](https://machine-learning-1gt1.onrender.com/docs)
 ```
 
-This will be correctly displayed on GitHub when added to your `README.md`. 🚀
-
 ## 📦 Dependencies  
 - Python 3.x  
 - pandas, numpy, scikit-learn  
@@ -182,8 +175,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 👩‍💻 Author  
+ 👩‍💻 Author  
 
-**Elsa Abera**  
+Elsa Abera  
 
 
