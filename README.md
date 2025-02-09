@@ -89,20 +89,43 @@ Several machine learning models are trained and compared:
 
 ```json
 {
-  "Age": 30,
-  "Gender": 1,
-  "Department": 2,
-  "Education_Level": 3,
-  "Years_of_Experience": 5,
-  "Salary": 60000,
-  "Work_Life_Balance": 4,
-  "Job_Involvement": 3,
-  "Job_Role": 2,
-  "Job_Level": 1,
-  "Company_Tenure": 3,
-  "Remote_Work": 1,
-  "Overtime": 1
-}
+  "data": [
+    {
+      "Marital_status": 1,
+      "Application_mode": 1,
+      "Application_order": 1,
+      "Course": 1,
+      "Daytime_evening_attendance": 1,
+      "Previous_qualification": 1,
+      "Nacionality": 1,
+      "Mothers_qualification": 1,
+      "Fathers_qualification": 1,
+      "Mothers_occupation": 1,
+      "Fathers_occupation": 1,
+      "Displaced": 0,
+      "Educational_special_needs": 0,
+      "Debtor": 0,
+      "Tuition_fees_up_to_date": 1,
+      "Gender": 1,
+      "Scholarship_holder": 0,
+      "Age_at_enrollment": 18,
+      "International": 0,
+      "Curricular_units_1st_sem_credited": 5,
+      "Curricular_units_1st_sem_enrolled": 6,
+      "Curricular_units_1st_sem_evaluations": 6,
+      "Curricular_units_1st_sem_approved": 5,
+      "Curricular_units_1st_sem_grade": 12.5,
+      "Curricular_units_1st_sem_without_evaluations": 0,
+      "Curricular_units_2nd_sem_credited": 5,
+      "Curricular_units_2nd_sem_enrolled": 6,
+      "Curricular_units_2nd_sem_evaluations": 6,
+      "Curricular_units_2nd_sem_approved": 5,
+      "Curricular_units_2nd_sem_grade": 11.0,
+      "Curricular_units_2nd_sem_without_evaluations": 0,
+      "Unemployment_rate": 5.2,
+      "Inflation_rate": 1.8,
+      "GDP": 3.0
+    }]}
 ```
 ```
 
