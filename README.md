@@ -86,6 +86,31 @@ Several machine learning models are trained and compared:
 
 ---
 
+Here’s how you can format the JSON data properly in your **GitHub README**:  
+
+```md
+## 📊 Sample Input Data  
+
+
+```json
+{
+  "Age": 30,
+  "Gender": 1,
+  "Department": 2,
+  "Education_Level": 3,
+  "Years_of_Experience": 5,
+  "Salary": 60000,
+  "Work_Life_Balance": 4,
+  "Job_Involvement": 3,
+  "Job_Role": 2,
+  "Job_Level": 1,
+  "Company_Tenure": 3,
+  "Remote_Work": 1,
+  "Overtime": 1
+}
+```
+```
+
 ## 🚀 Deployment  
 The model is deployed as an API using FastAPI to enable real-time predictions.  
 
@@ -99,21 +124,41 @@ The model is deployed as an API using FastAPI to enable real-time predictions.
 uvicorn elsa:app --host 0.0.0.0 --port 8000 --reload
 
 
+```md
 ## 🏗 How to Run Locally  
-1️⃣ Clone the repository:  
+
+1️⃣ **Clone the repository:**  
+```sh
 git clone https://github.com/elsaabera/machine-learning.git
-2️⃣ Create and activate a virtual environment:  
+cd machine-learning
+```
+
+2️⃣ **Create and activate a virtual environment:**  
+```sh
 python -m venv env
 source env/bin/activate  # On Windows use env\Scripts\activate
-3️⃣ Install dependencies:  
-pip install -r requirements.txt
-4️⃣ Train the model:  
-python train.py
-5️⃣ Start the API:  
-uvicorn main:app --reload
-6️⃣ API Link: [Machine Learning API](https://machine-learning-1gt1.onrender.com/docs)  
+```
 
----
+3️⃣ **Install dependencies:**  
+```sh
+pip install -r requirements.txt
+```
+
+4️⃣ **Train the model:**  
+```sh
+python train.py
+```
+
+5️⃣ **Start the API:**  
+```sh
+uvicorn elsa:app --reload
+```
+
+6️⃣ **API Documentation:**  
+[Machine Learning API](https://machine-learning-1gt1.onrender.com/docs)
+```
+
+This will be correctly displayed on GitHub when added to your `README.md`. 🚀
 
 ## 📦 Dependencies  
 - Python 3.x  
@@ -136,3 +181,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 🔗 Live API Documentation: [Machine Learning API](https://machine-learning-1gt1.onrender.com/docs)  
 
 ---
+
+## 👩‍💻 Author  
+
+**Elsa Abera**  
+
+
