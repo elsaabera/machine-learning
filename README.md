@@ -93,12 +93,11 @@ The model is deployed as an API using FastAPI to enable real-time predictions.
 ✅ Accepts student data as input.  
 ✅ Returns a probability score indicating dropout risk.  
 ✅ Allows easy integration with education management systems.
+
 ### 🔧 Deployment Steps  
 1️⃣ Start the API Server:  
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-2️⃣ Make a Prediction Request:  
-curl -X POST "http://127.0.0.1:8000/predict" -H "Content-Type: application/json" -d '{"feature1": value, "feature2": value}'
----
+uvicorn elsa:app --host 0.0.0.0 --port 8000 --reload
+
 
 ## 🏗 How to Run Locally  
 1️⃣ Clone the repository:  
@@ -137,9 +136,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 🔗 Live API Documentation: [Machine Learning API](https://machine-learning-1gt1.onrender.com/docs)  
 
 ---
-
-### ✨ Enhancements Made  
-✅ Bold headers with increased font size  
-✅ Emojis added for better readability  
-✅ Properly formatted links  
-✅ Improved aesthetics for better understanding  
